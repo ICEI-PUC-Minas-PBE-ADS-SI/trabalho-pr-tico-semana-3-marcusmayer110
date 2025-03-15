@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     clear: both;
+   
 }
 
 
@@ -26,24 +27,28 @@ background-color: rgb(19, 10, 10);
 body header img{
     display: block;
     margin: auto;
-    height: 70px;
+    height: 250px;
     width: auto;
     margin-top: 10px;
 }
 
-
+section{
+    padding-bottom: 50px;
+}
 main{
 
-background-color: aquamarine;
+
 
 }
 main section div img{
-    height: 300px ;
-    width: auto;
+    height: auto ;
+    width: 500px;
     display: block;
     margin-left:auto;
     margin-right: auto;
     padding-top: 25px;
+    border-radius: 10px;
+    border: 3px;
     
 }
 
@@ -52,11 +57,20 @@ article{
     margin: 0 auto;
     width: 100%; 
 }
-main article img{
-height: 120px;
-display: inline-block;
+main article div ul img{
+height: 200px;
 width: auto;
 margin: 5px 25px;
+border-radius: 5px;
+
+
+}
+
+
+main article div ul p{
+    color: white;
+    display: inline;
+    
 }
 
 main section p {
@@ -68,10 +82,7 @@ margin-bottom: 0px;
 color: white;
 }
 
-.h4{
-    margin-left: 45px;
-    margin-top: 5px;
-}
+
 footer{
 background-color: blue;
 
@@ -85,6 +96,13 @@ background-color: blue;
 .geral{
     text-align: center;
 
+}
+
+
+.h4{
+    margin-left: 45px;
+    margin-top: 5px;
+    color: white;
 }
 
 
@@ -119,7 +137,22 @@ header nav ul li a{
 }
 
 .destaque{
-    background-color: lightsalmon;
+    background-color: rgb(19, 10, 10);
     height: 450px;
   
+}
+
+.catalogo{
+    
+    display: block;
+    margin: auto;
+}
+
+.imagem-catalogo{
+    display: inline;
+
+}
+
+.catalogo ul{
+    text-align: center;
 }
