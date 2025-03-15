@@ -16,7 +16,7 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print do esboço criada
 
-![alt text](public/images/ESBOÇO-EXCALIDRAW.png)
+![alt text](public/images/ESBOÇO-INICIAL.jpeg)
 
 
 ## Print da home-page criada
