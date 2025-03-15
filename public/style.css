@@ -1,17 +1,35 @@
 /*                componentes de estrutura do site      */
+*{
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+
+
+
+
 body{
-background-color: black;
+background-color:  rgb(19, 10, 10);
 font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
 
 header{
-background-color: white;
-
+  
+background-color: rgb(19, 10, 10);
 
 }
 
+body header img{
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: auto;
+    margin-top: 10px;
+}
 
 
 main{
@@ -19,15 +37,41 @@ main{
 background-color: aquamarine;
 
 }
-
-
-aside{
-
-background-color: lightgreen;
+main section div img{
+    height: 300px ;
+    width: auto;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 25px;
+    
 }
 
+article{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%; 
+}
+main article img{
+height: 120px;
+display: inline-block;
+width: auto;
+margin: 5px 25px;
+}
 
+main section p {
+display: block;
+margin-top: 38px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 0px;
+color: white;
+}
 
+.h4{
+    margin-left: 45px;
+    margin-top: 5px;
+}
 footer{
 background-color: blue;
 
@@ -37,18 +81,36 @@ background-color: blue;
 
 /*                    classes                     */
 
+
+.geral{
+    text-align: center;
+
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    
+}
+
 .menu-principal{
+    background-color:  rgb(19, 10, 10);
+    width: 100%;
+    list-style-type: none;
+}
+
+.menu-principal li{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(19, 10, 10);
+    color: white;
+    width: 100%;
+    display: inline;
+    text-decoration: none;
+    padding: 3px 45px;
+    padding-bottom: 0px;
 
 
 }
-
-
-.menu-lateral{
-
-
-
-}
-
 
 
 .generos{
@@ -57,6 +119,7 @@ background-color: blue;
 }
 
 .destaque{
-
-
+    background-color: lightsalmon;
+    height: 450px;
+  
 }
