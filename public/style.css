@@ -1,193 +1,134 @@
-/*                componentes de estrutura do site      */
-*{
-    margin: 0;
+html,
+body {
+    height: 100%;
+    background: radial-gradient(circle, blue, rgb(32, 17, 75));
     padding: 0;
-    clear: both;
-   
-}
-
-
-
-
-
-body{
-background-color:  rgb(19, 10, 10);
-font-family: Arial, Helvetica, sans-serif;
-
-}
-
-
-
-header{
-  
-background-color: rgb(19, 10, 10);
-
-}
-
-body header img{
-    display: block;
-    margin: auto;
-    height: 250px;
-    width: auto;
-    margin-top: 10px;
-}
-
-section{
-    padding-bottom: 50px;
-}
-main{
-
-
-
-}
-main section div img{
-    height: auto ;
-    width: 500px;
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    padding-top: 25px;
-    border-radius: 10px;
-    border: 3px;
+    margin: 0;
     
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {}
+
+main {}
+
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+footer h5{
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* classes*/
+
+/*Menu*/
+
+.menu-navegação {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-navegação img { /*logo*/
+    max-width: 125px;
+    height: auto;
+
+}
+
+.menu-navegação ul {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-navegação ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
+.menu-navegação a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(216, 236, 238);
+    border-radius: 20px;
+}
+
+.menu-navegação a:visited {
+    color: black;
+}
+
+.menu-navegação a:hover {
+    background-color: rgb(173, 214, 214);
+}
+
+
+/*destaque-site*/
+
+.destaque-site{
+    display: flex;
+    justify-content: center;
+    background:radial-gradient(rgb(71, 59, 240), rgb(32, 17, 75));
+    border:5px black;
+    border-radius: 40px;
+    
+    
+}
+.botão-img img{
+    width: 1080px;
+    height: auto;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+
+}
+.botão-img img:hover{
+    transform: scale(1.1);
+    border-color: black;
+    
+}
+.texto-descrição{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* categorias*/
+
+.caixa-categoria h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+
 }
 
 article{
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%; 
-}
-main article div ul img{
-height: 200px;
-width: auto;
-margin: 5px 25px;
-border-radius: 5px;
-
-
-}
-
-
-main article div ul p{
-    color: white;
-    display: inline;
     
 }
 
-main section p {
-display: block;
-margin-top: 38px;
-margin-left: 10px;
-margin-right: 10px;
-margin-bottom: 0px;
-color: white;
+.movies{
+    width: 200px ;
+    height: 200px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
 }
-
-
-footer{
-color: white;
-text-align: center;
-margin-top: 30px;
-font-family: 'Times New Roman', Times, serif;
-
-
-}
-
-
-/*                    classes                     */
-
-
-.geral{
-    text-align: center;
-
-}
-
-
-.h4{
-    margin-left: 45px;
-    margin-top: 5px;
-    color: white;
-}
-
-
-header nav ul li a{
-    text-decoration: none;
-    
-}
-
-.menu-principal{
-    background-color:  rgb(19, 10, 10);
-    width: 100%;
-    list-style-type: none;
-}
-
-.menu-principal li{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(19, 10, 10);
-    color: white;
-    width: 100%;
-    display: inline;
-    text-decoration: none;
-    padding: 3px 45px;
-    padding-bottom: 0px;
-
-
-}
-
-
-.generos{
-
-
-}
-
-.destaque{
-    background-color: rgb(19, 10, 10);
-    height: 450px;
-  
-}
-
-.catalogo{
-    
-    display: block;
-    margin: auto;
-}
-
-.imagem-catalogo{
-    display: inline;
-   border-radius: 30px;
-}
-
-.catalogo ul{
-    text-align: center;
-}
-
-header nav ul li a {
-    background-color: rgb(218, 167, 73);
-    border-radius: 15px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 10px;
-}
-
-header nav ul li a:visited {
-    color: white;
-}
-
-
-
-article div ul li a{
-    color: rgb(239, 234, 234);
-    text-decoration: none;
-}
-article div ul li a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-.imagem-catalogo2{
-    display: inline-block;
-    margin: 5px 30px;
-    
-}
-.imagem-catalogo2 img{
- border-radius: 55px;
+.movies:hover{
+    transform: scale(1.1);
+    border-color: white;
 }

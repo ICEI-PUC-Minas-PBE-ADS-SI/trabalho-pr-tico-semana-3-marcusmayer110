@@ -11,7 +11,7 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Nome: Marcus Magnus De Almeida Mayer
 - Matricula: 888471
 - Proposta de projeto escolhida: Catalogo de filmes
-- Breve descrição sobre seu projeto: um site para um streaming, contendo titulos, perfil de usuario e outras funções contidas nas propostas, modelo inspirado em serviços como netflix,HBO.
+- Breve descrição sobre seu projeto: um site para um streaming, contendo titulos, perfil de usuario e outras funções contidas nas propostas, modelo inspirado em serviços como netflix,HBO, chunchyroll.
  
 
 ## Print do esboço criada
