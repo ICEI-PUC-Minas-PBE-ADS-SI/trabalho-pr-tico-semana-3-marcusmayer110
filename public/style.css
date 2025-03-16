@@ -84,7 +84,10 @@ color: white;
 
 
 footer{
-background-color: blue;
+color: white;
+text-align: center;
+margin-top: 30px;
+font-family: 'Times New Roman', Times, serif;
 
 
 }
@@ -150,9 +153,41 @@ header nav ul li a{
 
 .imagem-catalogo{
     display: inline;
-
+   border-radius: 30px;
 }
 
 .catalogo ul{
     text-align: center;
+}
+
+header nav ul li a {
+    background-color: rgb(218, 167, 73);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li a:visited {
+    color: white;
+}
+
+
+
+article div ul li a{
+    color: rgb(239, 234, 234);
+    text-decoration: none;
+}
+article div ul li a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.imagem-catalogo2{
+    display: inline-block;
+    margin: 5px 30px;
+    
+}
+.imagem-catalogo2 img{
+ border-radius: 55px;
 }

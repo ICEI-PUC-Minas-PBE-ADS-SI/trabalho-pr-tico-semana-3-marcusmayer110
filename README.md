@@ -19,6 +19,11 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ![alt text](public/images/ESBOÇO-INICIAL.jpeg)
 
 
+
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](public/images/print1.png)
+
+![alt text](public/images/print2.png)
+
+![alt text](public/images/print3.png)
