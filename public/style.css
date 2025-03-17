@@ -12,9 +12,6 @@ body {
     box-sizing: border-box;
 }
 
-header {}
-
-
 
 footer {
     width: 100%;
@@ -32,6 +29,7 @@ footer h5 {
 /* classes*/
 
 /*Menu*/
+
 .campo-pesquisa {
     padding: 5px;
     border-radius: 5px;
@@ -79,6 +77,15 @@ footer h5 {
     display: inline-block;
     margin-left: 5px;
 
+}
+#logo-link{
+    background-color: transparent;
+    padding: 2px;
+}
+#logo-link:hover{
+   transform: scale(1.1);
+   border: solid 2px;
+   border-color: white;
 }
 
 .menu-navegação a {
@@ -159,3 +166,5 @@ article {}
     transform: scale(1.1);
     border-color: white;
 }
+
+
