@@ -27,3 +27,5 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ![alt text](public/images/print2.png)
 
 ![alt text](public/images/print3.png)
+
+![alt text](public/images/print4.png)
